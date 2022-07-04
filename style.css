@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: rgb(222, 148, 10);
+}
+
+section {
+    display: flex;
+}
+
+.header-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.pic-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.pic-width img {
+    width: 80%;
+}
+
+.header-width a {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+#top-banner {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
